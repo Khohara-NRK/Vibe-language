@@ -1,0 +1,25 @@
+# --- Vibe Language Example ---
+# This script demonstrates the Human-Native flow.
+
+Goal: Create a personalized greeting application.
+Platform: Universal (Web and Mobile)
+
+# 1. Setup (Strict Logic)
+! Set WelcomeMessage to "Welcome to the Vibe Era"
+! Set User to "Viber"
+
+# 2. The Creative Vibe
+~ Layout: A minimalist, centered card with a soft neon glow.
+~ Background: A smooth animated gradient of deep purple and blue.
+
+# 3. Iterative Intent (The Human-Native Loop)
+Repeat 3 times:
+    > Print WelcomeMessage
+    > Notify: "Checking Vibe Status... ${User}"
+
+# 4. User Interaction
+Always:
+    If User clicks the "Vibe" button:
+        ~ Animate: Pulse the card gently.
+        ! Change WelcomeMessage to "The Vibe is strong with you."
+        > Play: A futuristic notification chime.
